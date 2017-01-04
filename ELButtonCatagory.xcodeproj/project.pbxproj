@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3DFEB691E1B427D00AF069F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFEB681E1B427D00AF069F /* main.m */; };
+		A3DFEB6C1E1B427D00AF069F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFEB6B1E1B427D00AF069F /* AppDelegate.m */; };
+		A3DFEB6F1E1B427D00AF069F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFEB6E1E1B427D00AF069F /* ViewController.m */; };
+		A3DFEB721E1B427D00AF069F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DFEB701E1B427D00AF069F /* Main.storyboard */; };
+		A3DFEB741E1B427D00AF069F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DFEB731E1B427D00AF069F /* Assets.xcassets */; };
+		A3DFEB771E1B427D00AF069F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3DFEB751E1B427D00AF069F /* LaunchScreen.storyboard */; };
+		A3DFEB821E1B427D00AF069F /* ELButtonCatagoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFEB811E1B427D00AF069F /* ELButtonCatagoryTests.m */; };
+		A3DFEB8D1E1B427D00AF069F /* ELButtonCatagoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFEB8C1E1B427D00AF069F /* ELButtonCatagoryUITests.m */; };
+		A3DFEB9C1E1B42AE00AF069F /* UIButton+ELBtnCatagory.m in Sources */ = {isa = PBXBuildFile; fileRef = A3DFEB9B1E1B42AE00AF069F /* UIButton+ELBtnCatagory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3DFEB7E1E1B427D00AF069F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3DFEB5C1E1B427D00AF069F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3DFEB631E1B427D00AF069F;
+			remoteInfo = ELButtonCatagory;
+		};
+		A3DFEB891E1B427D00AF069F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3DFEB5C1E1B427D00AF069F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3DFEB631E1B427D00AF069F;
+			remoteInfo = ELButtonCatagory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3DFEB641E1B427D00AF069F /* ELButtonCatagory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELButtonCatagory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DFEB681E1B427D00AF069F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3DFEB6A1E1B427D00AF069F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3DFEB6B1E1B427D00AF069F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3DFEB6D1E1B427D00AF069F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3DFEB6E1E1B427D00AF069F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3DFEB711E1B427D00AF069F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3DFEB731E1B427D00AF069F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3DFEB761E1B427D00AF069F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3DFEB781E1B427D00AF069F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DFEB7D1E1B427D00AF069F /* ELButtonCatagoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELButtonCatagoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DFEB811E1B427D00AF069F /* ELButtonCatagoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELButtonCatagoryTests.m; sourceTree = "<group>"; };
+		A3DFEB831E1B427D00AF069F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DFEB881E1B427D00AF069F /* ELButtonCatagoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELButtonCatagoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DFEB8C1E1B427D00AF069F /* ELButtonCatagoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELButtonCatagoryUITests.m; sourceTree = "<group>"; };
+		A3DFEB8E1E1B427D00AF069F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3DFEB9A1E1B42AE00AF069F /* UIButton+ELBtnCatagory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ELBtnCatagory.h"; sourceTree = "<group>"; };
+		A3DFEB9B1E1B42AE00AF069F /* UIButton+ELBtnCatagory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ELBtnCatagory.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3DFEB611E1B427D00AF069F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DFEB7A1E1B427D00AF069F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DFEB851E1B427D00AF069F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3DFEB5B1E1B427D00AF069F = {
+			isa = PBXGroup;
+			children = (
+				A3DFEB661E1B427D00AF069F /* ELButtonCatagory */,
+				A3DFEB801E1B427D00AF069F /* ELButtonCatagoryTests */,
+				A3DFEB8B1E1B427D00AF069F /* ELButtonCatagoryUITests */,
+				A3DFEB651E1B427D00AF069F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3DFEB651E1B427D00AF069F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3DFEB641E1B427D00AF069F /* ELButtonCatagory.app */,
+				A3DFEB7D1E1B427D00AF069F /* ELButtonCatagoryTests.xctest */,
+				A3DFEB881E1B427D00AF069F /* ELButtonCatagoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3DFEB661E1B427D00AF069F /* ELButtonCatagory */ = {
+			isa = PBXGroup;
+			children = (
+				A3DFEB9A1E1B42AE00AF069F /* UIButton+ELBtnCatagory.h */,
+				A3DFEB9B1E1B42AE00AF069F /* UIButton+ELBtnCatagory.m */,
+				A3DFEB6A1E1B427D00AF069F /* AppDelegate.h */,
+				A3DFEB6B1E1B427D00AF069F /* AppDelegate.m */,
+				A3DFEB6D1E1B427D00AF069F /* ViewController.h */,
+				A3DFEB6E1E1B427D00AF069F /* ViewController.m */,
+				A3DFEB701E1B427D00AF069F /* Main.storyboard */,
+				A3DFEB731E1B427D00AF069F /* Assets.xcassets */,
+				A3DFEB751E1B427D00AF069F /* LaunchScreen.storyboard */,
+				A3DFEB781E1B427D00AF069F /* Info.plist */,
+				A3DFEB671E1B427D00AF069F /* Supporting Files */,
+			);
+			path = ELButtonCatagory;
+			sourceTree = "<group>";
+		};
+		A3DFEB671E1B427D00AF069F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3DFEB681E1B427D00AF069F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3DFEB801E1B427D00AF069F /* ELButtonCatagoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3DFEB811E1B427D00AF069F /* ELButtonCatagoryTests.m */,
+				A3DFEB831E1B427D00AF069F /* Info.plist */,
+			);
+			path = ELButtonCatagoryTests;
+			sourceTree = "<group>";
+		};
+		A3DFEB8B1E1B427D00AF069F /* ELButtonCatagoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3DFEB8C1E1B427D00AF069F /* ELButtonCatagoryUITests.m */,
+				A3DFEB8E1E1B427D00AF069F /* Info.plist */,
+			);
+			path = ELButtonCatagoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3DFEB631E1B427D00AF069F /* ELButtonCatagory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DFEB911E1B427D00AF069F /* Build configuration list for PBXNativeTarget "ELButtonCatagory" */;
+			buildPhases = (
+				A3DFEB601E1B427D00AF069F /* Sources */,
+				A3DFEB611E1B427D00AF069F /* Frameworks */,
+				A3DFEB621E1B427D00AF069F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELButtonCatagory;
+			productName = ELButtonCatagory;
+			productReference = A3DFEB641E1B427D00AF069F /* ELButtonCatagory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3DFEB7C1E1B427D00AF069F /* ELButtonCatagoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DFEB941E1B427D00AF069F /* Build configuration list for PBXNativeTarget "ELButtonCatagoryTests" */;
+			buildPhases = (
+				A3DFEB791E1B427D00AF069F /* Sources */,
+				A3DFEB7A1E1B427D00AF069F /* Frameworks */,
+				A3DFEB7B1E1B427D00AF069F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3DFEB7F1E1B427D00AF069F /* PBXTargetDependency */,
+			);
+			name = ELButtonCatagoryTests;
+			productName = ELButtonCatagoryTests;
+			productReference = A3DFEB7D1E1B427D00AF069F /* ELButtonCatagoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3DFEB871E1B427D00AF069F /* ELButtonCatagoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3DFEB971E1B427D00AF069F /* Build configuration list for PBXNativeTarget "ELButtonCatagoryUITests" */;
+			buildPhases = (
+				A3DFEB841E1B427D00AF069F /* Sources */,
+				A3DFEB851E1B427D00AF069F /* Frameworks */,
+				A3DFEB861E1B427D00AF069F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3DFEB8A1E1B427D00AF069F /* PBXTargetDependency */,
+			);
+			name = ELButtonCatagoryUITests;
+			productName = ELButtonCatagoryUITests;
+			productReference = A3DFEB881E1B427D00AF069F /* ELButtonCatagoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3DFEB5C1E1B427D00AF069F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Eleven;
+				TargetAttributes = {
+					A3DFEB631E1B427D00AF069F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A3DFEB7C1E1B427D00AF069F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3DFEB631E1B427D00AF069F;
+					};
+					A3DFEB871E1B427D00AF069F = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A3DFEB631E1B427D00AF069F;
+					};
+				};
+			};
+			buildConfigurationList = A3DFEB5F1E1B427D00AF069F /* Build configuration list for PBXProject "ELButtonCatagory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3DFEB5B1E1B427D00AF069F;
+			productRefGroup = A3DFEB651E1B427D00AF069F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3DFEB631E1B427D00AF069F /* ELButtonCatagory */,
+				A3DFEB7C1E1B427D00AF069F /* ELButtonCatagoryTests */,
+				A3DFEB871E1B427D00AF069F /* ELButtonCatagoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3DFEB621E1B427D00AF069F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DFEB771E1B427D00AF069F /* LaunchScreen.storyboard in Resources */,
+				A3DFEB741E1B427D00AF069F /* Assets.xcassets in Resources */,
+				A3DFEB721E1B427D00AF069F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DFEB7B1E1B427D00AF069F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DFEB861E1B427D00AF069F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3DFEB601E1B427D00AF069F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DFEB6F1E1B427D00AF069F /* ViewController.m in Sources */,
+				A3DFEB6C1E1B427D00AF069F /* AppDelegate.m in Sources */,
+				A3DFEB691E1B427D00AF069F /* main.m in Sources */,
+				A3DFEB9C1E1B42AE00AF069F /* UIButton+ELBtnCatagory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DFEB791E1B427D00AF069F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DFEB821E1B427D00AF069F /* ELButtonCatagoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DFEB841E1B427D00AF069F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3DFEB8D1E1B427D00AF069F /* ELButtonCatagoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3DFEB7F1E1B427D00AF069F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3DFEB631E1B427D00AF069F /* ELButtonCatagory */;
+			targetProxy = A3DFEB7E1E1B427D00AF069F /* PBXContainerItemProxy */;
+		};
+		A3DFEB8A1E1B427D00AF069F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3DFEB631E1B427D00AF069F /* ELButtonCatagory */;
+			targetProxy = A3DFEB891E1B427D00AF069F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3DFEB701E1B427D00AF069F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3DFEB711E1B427D00AF069F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3DFEB751E1B427D00AF069F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3DFEB761E1B427D00AF069F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3DFEB8F1E1B427D00AF069F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3DFEB901E1B427D00AF069F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3DFEB921E1B427D00AF069F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ELButtonCatagory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ELButtonCatagory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3DFEB931E1B427D00AF069F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ELButtonCatagory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ELButtonCatagory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3DFEB951E1B427D00AF069F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELButtonCatagoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ELButtonCatagoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELButtonCatagory.app/ELButtonCatagory";
+			};
+			name = Debug;
+		};
+		A3DFEB961E1B427D00AF069F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELButtonCatagoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ELButtonCatagoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELButtonCatagory.app/ELButtonCatagory";
+			};
+			name = Release;
+		};
+		A3DFEB981E1B427D00AF069F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ELButtonCatagoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ELButtonCatagoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ELButtonCatagory;
+			};
+			name = Debug;
+		};
+		A3DFEB991E1B427D00AF069F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ELButtonCatagoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Eleven.ELButtonCatagoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ELButtonCatagory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3DFEB5F1E1B427D00AF069F /* Build configuration list for PBXProject "ELButtonCatagory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DFEB8F1E1B427D00AF069F /* Debug */,
+				A3DFEB901E1B427D00AF069F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3DFEB911E1B427D00AF069F /* Build configuration list for PBXNativeTarget "ELButtonCatagory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DFEB921E1B427D00AF069F /* Debug */,
+				A3DFEB931E1B427D00AF069F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3DFEB941E1B427D00AF069F /* Build configuration list for PBXNativeTarget "ELButtonCatagoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DFEB951E1B427D00AF069F /* Debug */,
+				A3DFEB961E1B427D00AF069F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3DFEB971E1B427D00AF069F /* Build configuration list for PBXNativeTarget "ELButtonCatagoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DFEB981E1B427D00AF069F /* Debug */,
+				A3DFEB991E1B427D00AF069F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3DFEB5C1E1B427D00AF069F /* Project object */;
+}
